@@ -474,6 +474,7 @@ h6 {
   background: url("../img/hero-bg.jpg") top left;
   background-size: cover;
   position: relative;
+  background-position: center center;
 }
 
 #hero:before {
@@ -639,6 +640,13 @@ section {
   }
 }
 
+.icon-box h4 span {
+  color: #106eea;
+}
+.col-md-6 .col-lg-3 .d-flex .align-items-stretch .mb-5 .mb-lg-0 .icon-box h4 span:hover {
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -753,7 +761,9 @@ section {
   margin-bottom: 0;
 }
 
-.featured-services .icon-box:hover .title a,
+.featured-services .icon-box:hover .title a span,
+.featured-services .icon-box:hover .title span,
+.featured-services .icon-box:hover h4 span,
 .featured-services .icon-box:hover .description {
   color: #fff;
 }
