@@ -3,7 +3,7 @@
   <script>
     var GLOBAL_EMAIL = "contato@veexi.com.br";
     var GLOBAL_TELEFONE = "71 98515 4746";
-    var GLOBAL_WA_ME_WHATSAPP = "https://wa.me/55071985154746";
+    var GLOBAL_WA_ME_WHATSAPP = "https://api.whatsapp.com/send?phone=55071985154746";
     var GLOBAL_WHATSAPP = "71 98515 47463";
     var GLOBAL_NAME_PAGE = "Veexi";
     var GLOBAL_INSTAGRAM_ADRESS = "veexitech";
@@ -144,8 +144,8 @@
         <div class="section-title">
           <!-- <h2>Sobre</h2> -->
           <h3>Nossos <span>diferenciais</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
-            autem.</p>
+          <!-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
+            autem.</p> -->
         </div>
 
         <div class="row">
@@ -684,10 +684,7 @@
               <div class="member-img">
                 <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/leandro-almeida-38479914b/"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -702,10 +699,7 @@
               <div class="member-img">
                 <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/matheus-pimentel-santos/"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -720,10 +714,7 @@
               <div class="member-img">
                 <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/reinaldo-santos-cerqueira-de-oliveira-04855119a/"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -738,7 +729,7 @@
     </section><!-- End Team Section -->
 
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
+    <!-- <section id="pricing" class="pricing">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -822,10 +813,11 @@
         </div>
 
       </div>
-    </section><!-- End Pricing Section -->
+    </section> -->
+    <!-- End Pricing Section -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq section-bg">
+    <!-- <section id="faq" class="faq section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -922,7 +914,8 @@
         </div>
 
       </div>
-    </section><!-- End Frequently Asked Questions Section -->
+    </section> -->
+    <!-- End Frequently Asked Questions Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -1004,8 +997,18 @@
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
-
+    </section>
+    <!-- End Contact Section -->
+    <script>
+      document.write(' <a href="'+GLOBAL_WA_ME_WHATSAPP+'&text=olá" class="whatsapp-button" target="_blank" style="position: fixed;  right: 35px; bottom: 85px;">');
+    </script>  
+        <div class="wrapper"> 
+          <div class="pulse">
+            <img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" class="whatsapp-img" alt="botão whatsapp">
+          </div>
+        </div>
+      </a>
+      
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -1100,8 +1103,8 @@
   </footer><!-- End Footer -->
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a> -->
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
